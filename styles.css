@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  background-image: url("./img/main-bg.jpeg");
+  background-size: co ver;
+  background-repeat:no-repeat;
+  background-position: center;
+  height : 100%;
+
+}
+
+.hamburger{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: none;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.face{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: none;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-right: 110px;
+  float: right;
+}
+
+.twitt{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: none;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-right: 60px;
+  float: right;
+}
+
+
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin-top: 40px;
+  color: white;
+  font-size: 37px;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+
+.big{
+  display:flex;
+justify-content: center;
+margin-top: 23vh;
+color: white;
+font-size:100px;
+margin-bottom: 0;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+.small{
+display:flex;
+justify-content: center;
+color: white;
+font-size:40px;
+margin-bottom: 0;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+h1,h4{
+  margin: 0;
+}
+
+.botCircle{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border: solid black 2px;
+  border-radius: 50%;
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  }
+
+
+
+
+@media(max-width: 768px){
+.nav-bar{
+  display: none;
+}
+.hamburger{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-left: 50px;
+  border: solid black 2px;
+  border-radius: 50%;
+}
+.face{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -55px;
+  margin-right: 110px;
+  float: right;
+  border: solid black 2px;
+  border-radius: 50%;
+}
+
+.twitt{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -55px;
+  margin-right: 30px;
+  float: right;
+  border: solid black 2px;
+  border-radius: 50%;
+}
+}
